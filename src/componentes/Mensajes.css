@@ -1,0 +1,57 @@
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    width: 130px;
+    height: 80vh;
+}
+
+.textMensaje {
+    width: 600px;
+    height: 50vh;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+}
+
+@media (min-width: 440px) {
+    .card {
+        width: 130px;
+    }
+
+    .textMensaje {
+        width: 230px;
+    }
+}
+
+@media (min-width: 760px) {
+    .card {
+        width: 200px;
+    }
+
+    .textMensaje {
+        width: 460px;
+    }
+}
+
+@media (min-width: 980px) {
+    .card {
+        width: 380px;
+    }
+
+    .textMensaje {
+        width: 600px;
+    }
+}
+
+@media (min-width: 980px) {
+    .card {
+        width: 35%;
+    }
+
+    .textMensaje {
+        width: 60%;
+    }
+}

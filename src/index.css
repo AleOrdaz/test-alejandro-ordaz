@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3%;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --colorSelector: #6bc3e6;
+    --colorText: #6e6e6e;
+    --colorAlert: #ff3300;
+}

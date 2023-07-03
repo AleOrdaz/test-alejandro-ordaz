@@ -1,0 +1,51 @@
+.cardMensaje {
+    padding: 10px;
+}
+
+.cardMensaje:hover {
+    background-color: rgb(198, 229, 255);
+    border-left: 2px solid var(--colorSelector);
+    color: var(--colorSelector);
+}
+
+.titleDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.date {
+    font-size: 13px;
+    color: gray;
+    margin: 0px;
+    text-align: end;
+}
+
+.shortText {
+    font-size: 14px;
+}
+
+
+.textMensaje {
+    width: 600px;
+    height: 50vh;
+    margin: auto;
+    background-color: aqua;
+}
+
+@media (min-width: 760px) {
+    .card {
+        width: 180px;
+    }
+}
+
+@media (min-width: 980px) {
+    .card {
+        width: 380px;
+    }
+}
